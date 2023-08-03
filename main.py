@@ -57,3 +57,12 @@ cap=(c*((i/100)**a))
 print('El capital obtenido por la inversion es', cap)'''
 
 #Ejercicio 10
+print('Ingrese la cantidad de payasos vendidos en el ultimo pedido')
+pc=int(input())
+print('Ingrese la cantidad de muñecas vendidas en el ultimo pedido')
+mc=int(input())
+p= 112
+m= 75
+pcp= pc*p
+mcm= mc*m
+print('El peso total del pedido es', (mcm+pcp), 'gramos')
