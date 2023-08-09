@@ -57,7 +57,7 @@ cap=(c*((i/100)**a))
 print('El capital obtenido por la inversion es', cap)'''
 
 #Ejercicio 10
-print('Ingrese la cantidad de payasos vendidos en el ultimo pedido')
+'''print('Ingrese la cantidad de payasos vendidos en el ultimo pedido')
 pc=int(input())
 print('Ingrese la cantidad de muñecas vendidas en el ultimo pedido')
 mc=int(input())
@@ -65,4 +65,25 @@ p= 112
 m= 75
 pcp= pc*p
 mcm= mc*m
-print('El peso total del pedido es', (mcm+pcp), 'gramos')
+print('El peso total del pedido es', (mcm+pcp), 'gramos')'''
+
+#Ejercicio 11
+'''print('Ingrese un numero')
+n=int(input())
+m=(((n*(n+1))/2))
+if m>20: print(m, 'Es un gran numero')
+else: print('La suma de todos los enteros desde 1 hasta', n, 'es', m )'''
+
+#Ejercicio 12
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+mns= n/m
+mn= round(mns, 2)
+r= (n%m)
+c=round((n//m))
+print('el resultado de la division es', mn, 'el residuo es', r, 'y el cociente es', c)
+if c<1: print('El divisor es mayor al dividendo')
+else if c>1: print('El divisor es menor que el dividendo')
+else if c==1: print('El divisor y el dividendo son iguales') 
