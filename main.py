@@ -104,7 +104,7 @@ if cap>1000000: print("La inversion de", c, "es una buena inversion")'''
 
 
 #Ejercicio 14
-print('Ingrese la cantidad de payasos vendidos en el ultimo pedido')
+'''print('Ingrese la cantidad de payasos vendidos en el ultimo pedido')
 pc=int(input())
 print('Ingrese la cantidad de muñecas vendidas en el ultimo pedido')
 mc=int(input())
@@ -120,4 +120,67 @@ if mmpp>3000000:
   if r==t: 
     print ("Contenedor enviado")
   else: print("Contenedor no enviado")
-else: print('El peso total del pedido es', (mmpp/1000), 'kilos')
+else: print('El peso total del pedido es', (mmpp/1000), 'kilos')'''
+
+
+#Ejercicio 15
+'''def suma(n,m):
+  return n+m
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+print (suma(n,m))'''
+
+#Ejercicio 16
+'''def resta(n,m):
+  return n-m
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+print (resta(n,m))'''
+
+#Ejercicio 17
+'''def multi(n,m):
+  return n*m
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+print (multi(n,m))'''
+
+#Ejercicio 18
+'''def division(n,m):
+  return n/m
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+print (division(n,m))'''
+
+#Ejercicio 19
+def suma(n,m):
+  return n+m
+def resta(n,m):
+  return n-m
+def multi(n,m):
+  return n*m
+def division(n,m):
+  if m==0: print('Error')
+  else: return n/m
+print('Ingrese un numero')
+n=int(input())
+print('Ingrese otro numero')
+m=int(input())
+print ('¿Como desea operarlos? (sumar, restar, multiplicar, dividir)')
+t=str(input())
+s="sumar"
+r="restar"
+p="multiplicar"
+d="dividir"
+if t==s: print('La suma de', n, 'y', m, 'es', suma(n,m))
+elif t==r: print('La resta de', n, 'y', m, 'es', resta(n,m))
+elif t==p: print('La multiplicacion de', n, 'y', m, 'es', multi(n,m))
+elif t==d: print('La division de', n, 'y', m, 'es', division(n,m))
+else: print ('No es posible ejecutar esa operacion. Ojo, escribir la operacion deseada textualmente de la manera señalada')
